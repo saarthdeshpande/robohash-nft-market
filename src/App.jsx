@@ -146,7 +146,8 @@ const App = () => {
             <input 
               className='name-input'
               type="text" 
-              placeholder="Enter your name!" 
+              placeholder="Enter your name!"
+	      value={name}
               disabled={loading}
               onChange={e => setName(e.target.value)}
             />
