@@ -7,7 +7,7 @@ import myEpicNft from './utils/RoboNFT.json';
 const TWITTER_HANDLE = 'DeshpandeSaarth';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
-const CONTRACT_ADDRESS = "0xdDCf0f57d0440EBD0935Ad208c82018dA470d735";
+const CONTRACT_ADDRESS = "0xb24E77434d2c4638988709A7664C85A5EA1A0428";
 
 const App = () => {
     const [currentAccount, setCurrentAccount] = useState("");
